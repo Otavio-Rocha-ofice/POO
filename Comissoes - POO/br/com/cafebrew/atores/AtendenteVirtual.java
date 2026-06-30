@@ -12,7 +12,7 @@ public class AtendenteVirtual {
 
     public void AtenderCliente(Cliente clienteatendido){
         this.listaclientesatendidos.add(clienteatendido);
-        System.out.println("O atendente " + nomeAtendente + "esta atendendo o client" + clienteatendido.getNome());
+        System.out.println("O atendente " + nomeAtendente + "esta atendendo o cliente" + clienteatendido.getNome());
     }
 
     
