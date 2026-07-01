@@ -38,7 +38,7 @@ public class Pedido {
     }
 
     public void exibirResumo() {
-        System.out.println("\n===== PEDIDO =====");
+        System.out.println("\nPEDIDO");
         System.out.println("Cliente: " + cliente.getNome());
 
         for (Produto p : produtos) {
